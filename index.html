@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,9 @@
     <link rel="stylesheet" href="./styles/style.css">
 
     <!-- Font Awesome Cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <!-- Tailwinds Cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -18,9 +21,12 @@
     <!-- Google Font Sora  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Sora:wght@100..800&disp#4D5558lay=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Sora:wght@100..800&disp#4D5558lay=swap"
+        rel="stylesheet">
 
 </head>
+
 <body class="font-sora">
     <header class="bg-linear-to-b from-[#FFFFFF] to-[#EFEBE3]">
 
@@ -39,11 +45,13 @@
                 <a class="text-xl" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
                 <a class="text-xl" href=""><i class="fa-solid fa-cart-shopping"></i></a>
 
-                <button class="text-[#111111] text-center text-lg lg:text-xl border-2 border-[#179800] rounded-lg px-6 lg:px-7.5 py-1.5 lg:py-2  hover:bg-[#179800] hover:text-white">
+                <button
+                    class="text-[#111111] text-center text-lg lg:text-xl border-2 border-[#179800] rounded-lg px-6 lg:px-7.5 py-1.5 lg:py-2  hover:bg-[#179800] hover:text-white">
                     Login
                 </button>
 
-                <button class="text-white text-center text-lg lg:text-xl bg-[#179800] rounded-lg px-6 lg:px-7.5 py-2  lg:py-2.5 hover:bg-green-500 hover:text-black">
+                <button
+                    class="text-white text-center text-lg lg:text-xl bg-[#179800] rounded-lg px-6 lg:px-7.5 py-2  lg:py-2.5 hover:bg-green-500 hover:text-black">
                     Register
                 </button>
 
@@ -56,20 +64,24 @@
 
         </nav>
         <!-- Horizontal line -->
-        <hr class=" border-[#179800] block lg:hidden "></hr>
+        <hr class=" border-[#179800] block lg:hidden ">
+        </hr>
 
         <!-- Banner Section -->
         <section class="container mx-auto">
 
             <div class="pt-12 md:pt-16 lg:pt-28">
 
-                <h1 class="mx-auto text-[#111111] text-3xl md:text-[42px] lg:text-[56px] font-semibold text-center leading-10 md:leading-14 lg:leading-20 ">
+                <h1
+                    class="mx-auto text-[#111111] text-3xl md:text-[42px] lg:text-[56px] font-semibold text-center leading-10 md:leading-14 lg:leading-20 ">
                     Freshness<span class="text-[#179800]">
-                    You Can <br> Count</span> On, Prices You’ll Love!
+                        You Can <br> Count</span> On, Prices You’ll Love!
                 </h1>
 
-                <p class="mx-auto mt-4 md:mt-5 lg:mt-8 w-[90%] md:w-[60%] lg:w-[28%] text-base md:text-xl text-[#4D5558] text-center">
-                    Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!
+                <p
+                    class="mx-auto mt-4 md:mt-5 lg:mt-8 w-[90%] md:w-[60%] lg:w-[28%] text-base md:text-xl text-[#4D5558] text-center">
+                    Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you
+                    covered every day!
 
                 </p>
 
@@ -84,11 +96,84 @@
     </header>
 
     <main>
+        <!-- Services Section -->
+        <section class="container mx-auto my-14 md:my-24 lg:my-40">
 
+            <div>
+                <h2 class="text-[#179800] ml-5 md:ml-8 lg:ml-0 text-3xl md:text-4xl font-semibold text-left">Services
+                </h2>
+            </div>
+
+            <!-- Cards container -->
+            <div
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-5 md:gap-5 lg:gap-8 mt-9 md:mt-10  lg:mt-16 mx-5 md:mx-5 lg:mx-0">
+
+                <!-- Card-1 -->
+                <div class="bg-[#EFEBE2] rounded-2xl shadow p-5 md:p-7 lg:p-8">
+                    <div class="flex flex-col items-center justify-center text-center ">
+
+                        <div class="bg-white rounded-full p-4 md:p-4 lg:p-5">
+                            <img src="./assets/service.png" alt="">
+                        </div>
+
+                        <h5 class="text-xl md:text-2xl  font-semibold mt-5 md:mt-6 mb-3">24/7 Services </h5>
+
+                        <p
+                            class="w-[85%] md:w-full lg:w-[85%] text-base md:text-lg lg:text-xl font-light text-[#5B5650] ">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Card-2 -->
+                <div class="bg-[#EFEBE2] rounded-2xl shadow p-5 md:p-7 lg:p-8">
+                    <div class="flex flex-col items-center justify-center text-center ">
+
+                        <div class="bg-white rounded-full p-4 md:p-4 lg:p-5">
+                            <img src="./assets/delivery.png" alt="">
+                        </div>
+
+                        <h5 class="text-xl md:text-2xl  font-semibold mt-5 md:mt-6 mb-3">24/7 Services </h5>
+
+                        <p
+                            class="w-[85%] md:w-full lg:w-[85%] text-base md:text-lg lg:text-xl font-light text-[#5B5650] ">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- card-3 -->
+                <div class="bg-[#EFEBE2] rounded-2xl shadow p-5 md:p-7 lg:p-8">
+                    <div class="flex flex-col items-center justify-center text-center ">
+
+                        <div class="bg-white rounded-full p-4 md:p-4 lg:p-5">
+                            <img src="./assets/products.png" alt="">
+                        </div>
+
+                        <h5 class="text-xl md:text-2xl  font-semibold mt-5 md:mt-6 mb-3">24/7 Services </h5>
+
+                        <p
+                            class="w-[85%] md:w-full lg:w-[85%] text-base md:text-lg lg:text-xl font-light text-[#5B5650] ">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Service Section End -->
     </main>
 
     <footer>
 
     </footer>
 </body>
+
 </html>

@@ -18,13 +18,13 @@
     <!-- Google Font Sora  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Sora:wght@100..800&disp#4D5558lay=swap" rel="stylesheet">
 
 </head>
-<body>
-    <header class="container mx-auto">
+<body class="font-sora">
+    <header class="bg-linear-to-b from-[#FFFFFF] to-[#EFEBE3]">
 
-        <nav class="flex items-center justify-between mx-4 md:mx-6 lg:mx-7 my-5 md:my-7">
+        <nav class="container mx-auto flex items-center justify-between px-4 md:px-6 lg:px-6 py-5 md:py-6 lg:py-7">
             <div>
                 <img class="w-[70%] md:w-[90%] lg:w-full" src="./assets/nav-logo.png" alt="">
             </div>
@@ -39,11 +39,11 @@
                 <a class="text-xl" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
                 <a class="text-xl" href=""><i class="fa-solid fa-cart-shopping"></i></a>
 
-                <button class="text-[#111111] text-center text-lg lg:text-xl border border-green-700 rounded-lg px-6 lg:px-7.5 py-1.5 lg:py-2  hover:bg-green-700 hover:text-white">
+                <button class="text-[#111111] text-center text-lg lg:text-xl border-2 border-[#179800] rounded-lg px-6 lg:px-7.5 py-1.5 lg:py-2  hover:bg-[#179800] hover:text-white">
                     Login
                 </button>
 
-                <button class="text-white text-center text-lg lg:text-xl bg-green-700 rounded-lg px-6 lg:px-7.5 py-2  lg:py-2.5 hover:bg-green-500 hover:text-black">
+                <button class="text-white text-center text-lg lg:text-xl bg-[#179800] rounded-lg px-6 lg:px-7.5 py-2  lg:py-2.5 hover:bg-green-500 hover:text-black">
                     Register
                 </button>
 
@@ -51,10 +51,36 @@
 
             <!-- Hamburger Menu -->
             <div class="block md:hidden">
-                <i class="fa-solid fa-bars text-2xl text-green-700"></i>
+                <i class="fa-solid fa-bars text-2xl text-[#179800]"></i>
             </div>
-            
+
         </nav>
+        <!-- Horizontal line -->
+        <hr class=" border-[#179800] block lg:hidden "></hr>
+
+        <!-- Banner Section -->
+        <section class="container mx-auto">
+
+            <div class="pt-12 md:pt-16 lg:pt-28">
+
+                <h1 class="mx-auto text-[#111111] text-3xl md:text-[42px] lg:text-[56px] font-semibold text-center leading-10 md:leading-14 lg:leading-20 ">
+                    Freshness<span class="text-[#179800]">
+                    You Can <br> Count</span> On, Prices You’ll Love!
+                </h1>
+
+                <p class="mx-auto mt-4 md:mt-5 lg:mt-8 w-[90%] md:w-[60%] lg:w-[28%] text-base md:text-xl text-[#4D5558] text-center">
+                    Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!
+
+                </p>
+
+            </div>
+
+            <div class="pt-6 md:pt-9 grid items-center justify-center">
+                <img class="hidden md:block" src="./assets/Hero Section 1.png" alt="">
+                <img class="block md:hidden lg:hidden" src="./assets/Hero Section-large.png" alt="">
+            </div>
+
+        </section>
     </header>
 
     <main>
